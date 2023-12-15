@@ -111,10 +111,11 @@
 		  	</plugin>
 		</plugins>
 	</build>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>${repository_url}</url>
-        </snapshotRepository>
-    </distributionManagement>
+<distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/lidorg-dev/java_web_app</url>
+    </repository>
+  </distributionManagement>
 </project>
